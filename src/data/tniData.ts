@@ -1,3 +1,9 @@
+import tniHardwareStylus from '../assets/images/tni_hardware_stylus_1792402036156.jpg';
+import tniCollaborationBoardroom from '../assets/images/tni_collaboration_boardroom_1792402037873.jpg';
+import tniAiCanvasInterface from '../assets/images/tni_ai_canvas_interface_1792402037231.jpg';
+import innovHumanoidRobotics from '../assets/images/innov_humanoid_robotics_1792402530855.jpg';
+import innovQuantumChip from '../assets/images/innov_quantum_chip_1792402530609.jpg';
+
 export interface Hotspot {
   id: string;
   x: number; // percentage from left
@@ -73,7 +79,7 @@ export const PRESS_ARTICLES: PressArticle[] = [
     authorRole: 'Spécialiste B2B Digital & Innovation Euridis',
     readTime: '7 min',
     publishDate: '19 Octobre 2026',
-    featuredImage: '/src/assets/images/tni_collaboration_boardroom_1792402037873.jpg',
+    featuredImage: tniCollaborationBoardroom,
     imageAlt: 'Équipe de direction réunie autour d’un grand écran interactif 4K à Paris avec visioconférence et plans d’architecture',
     imageCaption: 'Fig. 01 — Réunion exécutive en salle connectée : collaboration synchrone entre intervenants sur site et collaborateurs distants à Paris.',
     summary: 'Autrefois simple rétroprojecteur d’écolier, le Tableau Numérique Interactif (TNI) est devenu l’épicentre névralgique des comités de direction et des universités. Analyse des 3 ruptures matérielles et logicielles qui transforment la décision d’entreprise.',
@@ -106,7 +112,7 @@ export const PRESS_ARTICLES: PressArticle[] = [
     authorRole: 'Analyste Systèmes Autonomes & Mécatronique',
     readTime: '5 min',
     publishDate: '18 Octobre 2026',
-    featuredImage: '/src/assets/images/innov_humanoid_robotics_1792402530855.jpg',
+    featuredImage: innovHumanoidRobotics,
     imageAlt: 'Robot humanoïde d’ingénierie travaillant en collaboration avec une ingénieure dans un laboratoire technologique moderne',
     imageCaption: 'Fig. 02 — Cohabitation homme-robot dans un laboratoire d’innovation : manipulation fine de composants électroniques et retour haptique.',
     summary: 'La convergence entre grands modèles de langage et corps robotiques bipèdes propulse l’automatisation dans une ère inédite. Les robots n’exécutent plus seulement des boucles préprogrammées : ils comprennent le langage naturel et s’adaptent en temps réel aux aléas de l’atelier.',
@@ -134,7 +140,7 @@ export const PRESS_ARTICLES: PressArticle[] = [
     authorRole: 'Chercheur associé en Physique Quantique Appliquée',
     readTime: '6 min',
     publishDate: '17 Octobre 2026',
-    featuredImage: '/src/assets/images/innov_quantum_chip_1792402530609.jpg',
+    featuredImage: innovQuantumChip,
     imageAlt: 'Processeur quantique supraconducteur dans un cryostat avec câblage coaxial doré',
     imageCaption: 'Fig. 03 — Cœur d’un processeur quantique supraconducteur opérant à 15 millikelvins au sein d’un cryostat à dilution étagé.',
     summary: 'La course à la suprématie quantique utile franchit une étape décisive avec l’apparition des premiers qubits logiques tolérants aux erreurs. Enseignement, chimie verte et logistique mondiale sont aux premières loges.',
@@ -162,7 +168,7 @@ export const PRESS_ARTICLES: PressArticle[] = [
     authorRole: 'Ingénieure Ergonomie & Interfaces Homme-Machine',
     readTime: '4 min',
     publishDate: '16 Octobre 2026',
-    featuredImage: '/src/assets/images/tni_hardware_stylus_1792402036156.jpg',
+    featuredImage: tniHardwareStylus,
     imageAlt: 'Gros plan macro d’un stylet actif touchant la dalle tactile en verre avec tracé lumineux ultra-net',
     imageCaption: 'Fig. 04 — Résolution sub-pixel : la pointe en résine active délivre un retour haptique haute fréquence sans latence perçue.',
     summary: 'Le cerveau humain détecte un retard tactile dès 40 millisecondes. Décryptage des algorithmes d’interpolation prédictive et des matrices capacitives à 400 Hz qui ont rendu le stylet numérique aussi naturel qu’un crayon HB.',
@@ -191,7 +197,7 @@ export const PRESS_ARTICLES: PressArticle[] = [
     authorRole: 'Chroniqueur Innovations Numériques',
     readTime: '5 min',
     publishDate: '15 Octobre 2026',
-    featuredImage: '/src/assets/images/tni_ai_canvas_interface_1792402037231.jpg',
+    featuredImage: tniAiCanvasInterface,
     imageAlt: 'Interface de tableau blanc intelligent transformant des schémas dessinés à la main en diagrammes vectoriels précis',
     imageCaption: 'Fig. 05 — Moteur de vectorisation IA : reconnaissance de formes géométriques et typographie automatisée en direct.',
     summary: 'L’encre numérique n’est plus un fichier image inerte. Les tableaux modernes analysent la sémantique de vos croquis, relient les concepts et génèrent automatiquement des tickets Jira et des pages Notion en temps réel.',
@@ -323,7 +329,7 @@ export const IMMERSIVE_EXPLANATIONS: ImmersiveExplanation[] = [
     id: 'hardware-sensorique',
     title: 'Anatomie du Contact : Du Verre Optique à l’Encre Sub-Millimétrique',
     category: 'Décryptage N°1 · Matériel & Sensorique',
-    imagePath: '/src/assets/images/tni_hardware_stylus_1792402036156.jpg',
+    imagePath: tniHardwareStylus,
     alt: 'Macro photographie d’un stylet actif sur un écran tactile 4K avec tracé lumineux de précision',
     caption: 'Fig. 01 — Tracé sub-pixel sur dalle 4K avec optical bonding et stylet électromagnétique actif (4096 niveaux de pression).',
     executiveSummary: 'Ce qui séparait autrefois le tableau classique du numérique était la latence et l’effet de « parallaxe ». Les dalles modernes résolvent cette friction grâce au collage optique sans interstice et au rejet intelligent de la paume.',
@@ -373,7 +379,7 @@ export const IMMERSIVE_EXPLANATIONS: ImmersiveExplanation[] = [
     id: 'collaboration-hybride',
     title: 'La Rupture Spatiale : Quand la Salle de Conseil Fusionne avec le Monde',
     category: 'Décryptage N°2 · Écosystème & Hybridation',
-    imagePath: '/src/assets/images/tni_collaboration_boardroom_1792402037873.jpg',
+    imagePath: tniCollaborationBoardroom,
     alt: 'Vue d’une salle de réunion moderne à Paris avec grand écran interactif affichant plans et visio d’équipe',
     caption: 'Fig. 02 — Déploiement en salle exécutive : collaboration simultanée entre intervenants sur site et collaborateurs distants.',
     executiveSummary: 'Le TNI n’est plus un écran d’affichage passif : c’est le pont central entre les collaborateurs présents dans la pièce et les équipes distantes, éliminant la fracture entre présentiel et télétravail.',
@@ -422,7 +428,7 @@ export const IMMERSIVE_EXPLANATIONS: ImmersiveExplanation[] = [
     id: 'ia-whiteboard-vector',
     title: 'L’Intelligence Générative : Du Croquis Hésitant au Schéma d’Architecture',
     category: 'Décryptage N°3 · Intelligence Artificielle & Synthèse',
-    imagePath: '/src/assets/images/tni_ai_canvas_interface_1792402037231.jpg',
+    imagePath: tniAiCanvasInterface,
     alt: 'Écran interactif intelligent convertissant des croquis manuels en schémas d’architecture vectoriels clairs',
     caption: 'Fig. 03 — Moteur IA de vectorisation en temps réel : conversion de la réflexion brute en actifs numériques exploitables.',
     executiveSummary: 'La véritable révolution logicielle réside dans la reconnaissance sémantique : le tableau n’enregistre plus de simples pixels noirs, mais comprend la structure logique de ce que vous dessinez et écrivez.',
