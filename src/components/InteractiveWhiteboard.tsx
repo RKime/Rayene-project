@@ -18,15 +18,15 @@ export const InteractiveWhiteboard: React.FC = () => {
   const [notes, setNotes] = useState<Note[]>([
     {
       id: '1',
-      x: 40,
-      y: 40,
-      text: 'Objectif Sprint : Finaliser le MVP Surface Hub & valider l\'UX tactile.',
+      x: 15,
+      y: 15,
+      text: 'Objectif Sprint : Valider le MVP TNI & tester l\'UX tactile.',
       color: '#fef08a'
     },
     {
       id: '2',
-      x: 320,
-      y: 40,
+      x: 15,
+      y: 140,
       text: 'Note IA : 94% de fluidité enregistrée sur le contrôleur PCAP.',
       color: '#bfdbfe'
     }
@@ -423,7 +423,7 @@ export const InteractiveWhiteboard: React.FC = () => {
               onTouchStart={startDrawing}
               onTouchMove={draw}
               onTouchEnd={stopDrawing}
-              className="w-full h-full block"
+              className="w-full h-full block touch-none"
             />
 
             {/* Movable / Editable Sticky Notes */}
