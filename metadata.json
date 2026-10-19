@@ -1,0 +1,6 @@
+{
+  "name": "REVUE TECH : Le Grand Dossier TNI",
+  "description": "Magazine technologique en ligne analysant la révolution des Tableaux Numériques Interactifs (TNI) : 3 décrypters immersifs en images, laboratoire tactile interactif et guide complet de projet.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
